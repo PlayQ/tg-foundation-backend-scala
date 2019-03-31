@@ -1,0 +1,10 @@
+data OverlayUserAttributes {
+    name: str
+    surname: str
+}
+
+
+declared (
+    @annotated(path = "users/{id}")
+    data User {}
+)
